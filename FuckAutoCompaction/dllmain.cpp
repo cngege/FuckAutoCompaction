@@ -14,10 +14,9 @@ BOOL APIENTRY DllMain( HMODULE hModule,
     switch (ul_reason_for_call)
     {
     case DLL_PROCESS_ATTACH:
-        static_assert(false, "Please modify your plugin registration details and delete this line");
-        LL::registerPlugin("PluginName", "Introduction", LL::Version(1, 0, 0), {
-                { "Note", "This is a note, you can remove it" },
-                { "Author", "???" },
+        LL::registerPlugin("FuckAutoCompaction", "Introduction", LL::Version(1, 0, 0), {
+                { "Note", "拦截输出的AutoCompaction刷屏消息" },
+                { "Author", "CNGEGE" },
                 { "Key", "Value" }
             }
         );
