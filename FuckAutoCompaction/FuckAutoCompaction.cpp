@@ -15,7 +15,7 @@ Logger FuckAutoCompactionLogger("FuckAutoCompaction");
 
 void PluginInit()
 {
-	FuckAutoCompactionLogger.info("插件加载");
+	//FuckAutoCompactionLogger.info("插件加载");
 }
 
 //enum BedrockLog::LogCategory, class std::bitset<3>, enum BedrockLog::LogRule, enum LogAreaID, unsigned int, char const *, int, char const *, ...
